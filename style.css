@@ -46,6 +46,7 @@ h2 {
 }
 /* Hug the block above you */
 main {
+  display: block;
   width: 600px;
   margin: 0 auto;
 }
