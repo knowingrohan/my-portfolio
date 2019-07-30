@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/knowingrohan/knowingrohan.github.io/issues"
   },
-  "homepage": "https://github.com/knowingrohan/knowingrohan.github.io#readme",
+  "homepage": ".",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
