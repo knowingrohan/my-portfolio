@@ -10,7 +10,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,9 @@
   "bugs": {
     "url": "https://github.com/knowingrohan/knowingrohan.github.io/issues"
   },
-  "homepage": ".",
+  "homepage": "https://knowingrohan.github.io/knowingrohan.github.io.git",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1"
