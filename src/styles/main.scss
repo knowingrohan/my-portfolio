@@ -3,11 +3,10 @@
 //mixins
 
 //modules
-@import './modules/reset';
-@import './modules/base';
+@import "./modules/colors";
+@import "./modules/reset";
+@import "./modules/base";
 
 //components
-@import './components/laptop';
-
-
-
+@import "./components/device";
+@import "./components/typewritertext";

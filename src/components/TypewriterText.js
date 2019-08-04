@@ -3,20 +3,24 @@ import React from 'react';
 
 const TypewriterText = (props) => {
 
+
     let txt = props.value;
-    var i = 0;
-    var string = props.value;
-    let speed = 70;
+    let i = 0;
+    let string = props.value;
+    let speed = 30;
     let textRef = React.createRef();
 
+
     function typeWriter() {
-        
+
         if (i < txt.length) {
             textRef.innerHTML += string.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
+        } else {
+            textRef.innerHTML += `<span>_</span>`;
         }
-        
+
     }
 
     const triggerTyperiter = () => {
@@ -24,9 +28,9 @@ const TypewriterText = (props) => {
     }
 
     return (
-        <div>
-            <p ref={ p => textRef = p} >{ triggerTyperiter() }</p>
-        </div>
+        <p className="typewriter-text" ref={p => textRef = p} >
+            $ {triggerTyperiter()}
+        </p>
     );
 }
 

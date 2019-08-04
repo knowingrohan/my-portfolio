@@ -1,20 +1,27 @@
 import React from 'react';
-import Laptop from './Laptop';
+import Device from './Device';
+
 
 import '../styles/main.scss';
 import TypewriterText from './TypewriterText';
+import Header from './Header';
 
 const App = () => {
 
     return (
         <main>
-            <h1>Rohan Mahajan</h1>
-            {/* <Laptop /> */}
-            <div className="lead">
-                <TypewriterText value = "Hello world, I'm rohan"/>
-                <p>A seasoned front-end developer with a strong sense for aesthetics and user interaction. </p>
-                <p>You may ususally find him experimenting his love for food as a hobbychef or exploring new places that serve some mouth relishing culinary delights.</p>
-            </div>
+            <Header></Header>
+            {/* <header>
+                <h1>Rohan Mahajan</h1>
+            </header> */}
+
+            {/* <Device>
+                <TypewriterText value="A seasoned front-end developer with a keen eye for aesthetics and UI/UX. Press enter to read more" />
+            </Device> */}
+
+
+            {/* <p className="read-more">You may ususally find him experimenting his love for food as a hobbychef or exploring new places that serve some mouth relishing culinary delights.</p> */}
+
             <section>
                 <h2>Links</h2>
                 <ul>
