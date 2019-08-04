@@ -1,4 +1,5 @@
 /docs
+/build
 .vscode
 node_modules
 public/img
