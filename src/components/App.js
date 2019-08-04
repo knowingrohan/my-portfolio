@@ -1,26 +1,17 @@
 import React from 'react';
-import Device from './Device';
-
-
 import '../styles/main.scss';
 import TypewriterText from './TypewriterText';
-import Header from './Header';
+
 
 const App = () => {
 
     return (
         <main>
-            <Header></Header>
-            {/* <header>
+            <header>
                 <h1>Rohan Mahajan</h1>
-            </header> */}
+            </header>
 
-            {/* <Device>
-                <TypewriterText value="A seasoned front-end developer with a keen eye for aesthetics and UI/UX. Press enter to read more" />
-            </Device> */}
-
-
-            {/* <p className="read-more">You may ususally find him experimenting his love for food as a hobbychef or exploring new places that serve some mouth relishing culinary delights.</p> */}
+            <TypewriterText value="Hello Friend !! Here's me wishing you a sparkling and joyous friendship :) Cheers" />
 
             <section>
                 <h2>Links</h2>

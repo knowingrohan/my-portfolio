@@ -10,7 +10,6 @@ const TypewriterText = (props) => {
     let speed = 30;
     let textRef = React.createRef();
 
-
     function typeWriter() {
 
         if (i < txt.length) {
