@@ -1,15 +1,13 @@
 import React from 'react';
-import Device from './Device';
-
-
 import '../styles/main.scss';
-import TypewriterText from './TypewriterText';
+// import TypewriterText from './TypewriterText';
+// import Device from './Device';
 import Header from './Header';
-
+import Footer from './Footer';
 const App = () => {
 
     return (
-        <main>
+        <>
             <Header></Header>
             {/* <header>
                 <h1>Rohan Mahajan</h1>
@@ -22,7 +20,7 @@ const App = () => {
 
             {/* <p className="read-more">You may ususally find him experimenting his love for food as a hobbychef or exploring new places that serve some mouth relishing culinary delights.</p> */}
 
-            <section>
+            {/* <section>
                 <h2>Links</h2>
                 <ul>
                     <li>
@@ -38,9 +36,9 @@ const App = () => {
                         <a href="https://twitter.com/knowingrohan">Twitter</a>
                     </li>
                 </ul>
-            </section>
-
-        </main>
+            </section> */}
+            <Footer/>
+        </>
     );
 
 }

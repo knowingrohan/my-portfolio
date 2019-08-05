@@ -41,6 +41,9 @@ h2 {
     line-height: 3rem;
     margin-top: 3rem;
 }
+section{
+    padding: 1rem;
+}
 /* Tables */
 /* Code blocks */
 /* Leading paragraph text */
@@ -48,9 +51,8 @@ h2 {
     font-size: 1.5rem;
 }
 
-main {
-    display: block;
-    width: 900px;
+.site-container {
+    width: 800px;
     margin: 0 auto;
 }
 
