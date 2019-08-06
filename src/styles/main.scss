@@ -1,6 +1,8 @@
 //variables
 
 //mixins
+@import "./mixins/functions";
+@import "./mixins/mediaqueries";
 
 //modules
 @import "./modules/colors";
@@ -10,6 +12,7 @@
 //components
 @import "./components/header";
 @import "./components/device";
+@import "./components/window";
 @import "./components/typewritertext";
 @import "./components/footer";
 

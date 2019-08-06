@@ -1,0 +1,41 @@
+.window {
+    &__titlebar {
+        background: $grey;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+        .titlebar-icons{
+            position: absolute;
+            top: retr(10);
+        }
+        p{
+            text-align: center;
+            display: block;
+            color: $light-black;
+            padding: retr(5);
+            margin-bottom: 0;
+        }
+        span{
+            display: inline-block;
+            margin: 0 retr(10);
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;  
+            &.red{
+                background-color: $red;
+            }
+            &.yellow{
+                background-color: $yellow;
+            }
+            &.green{
+                background-color: $green;
+            }
+        }
+    }
+    &__container {
+        background: $black;
+        padding: retr(8) retr(16) retr(160) retr(16);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

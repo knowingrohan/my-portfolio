@@ -7,9 +7,10 @@ const Header = () => {
             <div className="header__logo">
                 <img src={Logo}  alt = "Rohan Mahajan's site logo" />
             </div>
-            <div className="header__contact">
-                Say Hello
-            </div>
+            <a className="header__contact" href="mailto:rohanm789@gmail.com?subject=Hey, Rohan!">
+                <span>SAY</span>
+                <span className="hello">Hello</span>
+            </a>
         </header>
     );
 }
