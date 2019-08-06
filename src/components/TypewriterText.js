@@ -13,8 +13,11 @@ const TypewriterText = (props) => {
 
     function typeWriter() {
 
-        if (i < txt.length) {
+        if (i < txt.length ) {
             textRef.innerHTML += string.charAt(i);
+            if(string.charAt(i) === '.') {
+                textRef.innerHTML += "<br/> <br/>"    
+            }
             i++;
             setTimeout(typeWriter, speed);
         } else {

@@ -4,9 +4,6 @@ html {
     -webkit-font-smoothing: antialiased;
     background: #282c34;
     color: #d7dae0;
-    @include media-query(phablet){
-        font-size: 80%;
-    }
 }
 /* Copy & Lists */
 p {
