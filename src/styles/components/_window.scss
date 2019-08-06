@@ -35,9 +35,12 @@
     }
     &__container {
         background: $black;
-        padding: retr(8) retr(16) retr(80) retr(16);
+        padding: retr(10); 
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        min-height: retr(200);
+        min-height: 50vh;
+        @include media-query(mobile){
+            min-height: 35vh;
+        }
     }
 }

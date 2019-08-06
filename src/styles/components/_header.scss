@@ -1,21 +1,23 @@
-.header{
+.header {
     margin: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__contact{
+    &__contact {
         font-size: retr(22);
-        &:hover{
-            border: none;
+        padding: retr(16);
+        background-image:url('../assets/phone-icon.png');
+        background-size: retr(56);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: retr(20);
+        &:hover {
+            border-bottom: none;
         }
         span{
             display: inline-block;
-            line-height: 3.2;
-        }
-        span.hello{
-            transform: rotateZ(90deg);
-            vertical-align: text-top;
-            font-weight: bold;
+            font-size: retr(16);
+            letter-spacing: retr(-2);
             color: $white;
         }
     }

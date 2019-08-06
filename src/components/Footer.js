@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <div className="footer__social">
+            <p className="footer__social">
                 <ul>
                     <li>
                         <a href="mailto:rohanm789@gmail.com?subject=Hey, Rohan!">E-mail</a>
@@ -19,10 +19,10 @@ const Footer = () => {
                         <a href="https://twitter.com/rohan_mahajan_">Twitter</a>
                     </li>
                 </ul>
-            </div>
-            <div className="footer__copytext">
+            </p>
+            <p className="footer__copytext">
                 &copy; 2019 Rohan Mahajan
-            </div>
+            </p>
         </footer>
     )
 };
