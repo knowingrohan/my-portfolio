@@ -1,4 +1,5 @@
 .window {
+    margin-bottom: retr(16);
     &__titlebar {
         background: $grey;
         border-top-left-radius: 10px;
@@ -34,8 +35,9 @@
     }
     &__container {
         background: $black;
-        padding: retr(8) retr(16) retr(160) retr(16);
+        padding: retr(8) retr(16) retr(80) retr(16);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        min-height: retr(200);
     }
 }

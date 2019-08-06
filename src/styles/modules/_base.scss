@@ -44,7 +44,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 99vh;
+    height: 95vh;
     @include media-query(phablet){
         width: 90%;
     }
