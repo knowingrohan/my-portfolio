@@ -1,0 +1,14 @@
+.typewriter-text {
+    color: #32cd32;
+    font-family: "Courier";
+    font-size: retr(20);
+    span {
+        animation: blink 1s infinite;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}

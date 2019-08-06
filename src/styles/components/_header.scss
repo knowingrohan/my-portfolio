@@ -1,0 +1,22 @@
+.header{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__contact{
+        font-size: retr(22);
+        &:hover{
+            border: none;
+        }
+        span{
+            display: inline-block;
+            line-height: 3.2;
+        }
+        span.hello{
+            transform: rotateZ(90deg);
+            vertical-align: text-top;
+            font-weight: bold;
+            color: $white;
+        }
+    }
+}
