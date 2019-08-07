@@ -4,14 +4,18 @@ html {
     -webkit-font-smoothing: antialiased;
     background: #282c34;
     color: #d7dae0;
+    @include media-query(mobile) {
+        font-size: 88%;
+    }
 }
 /* Copy & Lists */
 p {
+    font-size: retr(18);
     line-height: 1.5;
     margin-bottom: retr(10);
 }
 ul {
-    margin-bottom:retr(10);
+    margin-bottom: retr(10);
     padding: 0;
     list-style: none;
     li {
@@ -28,11 +32,11 @@ h2 {
 }
 h1 {
     font-size: retr(48);
-    line-height: 2
+    line-height: 2;
 }
 h2 {
     font-size: retr(40);
-    line-height: 2
+    line-height: 2;
 }
 
 /* Tables */
@@ -43,11 +47,18 @@ h2 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    @include media-query(phablet){
+    min-height: 100vh;
+    @include media-query(phablet) {
         width: 90%;
     }
+}
+header,
+footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
 }
 
 a {

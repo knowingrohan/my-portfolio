@@ -1,5 +1,5 @@
 .window {
-    margin: retr(24) 0;
+    margin: retr(32) 0;
     &__titlebar {
         background: $grey;
         border-top-left-radius: 10px;
@@ -43,9 +43,6 @@
         padding: retr(10); 
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        min-height: 50vh;
-        @include media-query(mobile){
-            min-height: 30vh;
-        }
+        min-height: retr(250);
     }
 }
