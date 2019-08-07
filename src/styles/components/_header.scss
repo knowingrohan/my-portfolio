@@ -4,21 +4,25 @@
     justify-content: space-between;
     align-items: center;
     &__contact {
+        cursor: pointer;
         font-size: retr(22);
         padding: retr(16);
-        background-image:url('../assets/phone-icon.png');
+        background-image: url("../assets/phone-icon.png");
         background-size: retr(56);
         background-repeat: no-repeat;
         background-position: center;
         padding: retr(20);
-        &:hover {
+        &:hover,
+        &:focus {
             border-bottom: none;
         }
-        span{
+        span {
             display: inline-block;
             font-size: retr(16);
-            letter-spacing: retr(-2);
             color: $white;
+            position: relative;
+            bottom:retr(4);
+            left: retr(2);
         }
     }
 }

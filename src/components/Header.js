@@ -6,7 +6,7 @@ const Header = () => {
             <div className="header__logo">
                 <img src={Logo}  alt = "Rohan Mahajan's site logo" />
             </div>
-            <a className="header__contact" href="mailto:rohanm789@gmail.com?subject=Hey, Rohan!" title="Contact Me"> 
+            <a className="header__contact" href="tel:+91-7760879988" title="Contact Me"> 
                 <span className="say">Hi</span>
             </a>
         </header>

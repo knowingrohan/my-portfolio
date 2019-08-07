@@ -40,7 +40,7 @@
         border-bottom-right-radius: 10px;
         min-height: 50vh;
         @include media-query(mobile){
-            min-height: 35vh;
+            min-height: 30vh;
         }
     }
 }
