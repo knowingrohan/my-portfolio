@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
             </p>
             <p className="footer__copytext">
-                &copy; 2019 Rohan Mahajan
+                Designed & Developed By <br/> Rohan Mahajan &copy; 2019
             </p>
         </footer>
     )

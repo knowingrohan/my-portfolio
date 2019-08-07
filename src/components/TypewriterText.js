@@ -16,7 +16,7 @@ const TypewriterText = (props) => {
         if (i < txt.length ) {
             textRef.innerHTML += string.charAt(i);
             if(string.charAt(i) === '.') {
-                textRef.innerHTML += "<br/><br/>$"    
+                textRef.innerHTML += "<br/>$"    
             }
             i++;
             setTimeout(typeWriter, speed);

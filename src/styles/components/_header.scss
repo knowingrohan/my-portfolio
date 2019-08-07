@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__logo{
+        img{
+            width: retr(60);
+            border: 1px solid $yellow;
+        }
+    }
     &__contact {
         cursor: pointer;
         font-size: retr(22);
