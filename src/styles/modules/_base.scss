@@ -5,8 +5,11 @@ html {
     background: #282c34;
     color: #d7dae0;
     @include media-query(mobile) {
-        font-size: 88%;
+        font-size: 90%;
     }
+}
+html, body{
+    height: 100%;
 }
 /* Copy & Lists */
 p {
@@ -47,18 +50,11 @@ h2 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
+    justify-content: space-between;
     @include media-query(phablet) {
         width: 90%;
     }
-}
-header,
-footer {
-    flex-shrink: 0;
-}
-
-main {
-    flex-grow: 1;
 }
 
 a {
@@ -69,4 +65,7 @@ a {
     &:focus {
         border-bottom: 1px solid $green;
     }
+}
+.hotspot{
+    color: $yellow;
 }

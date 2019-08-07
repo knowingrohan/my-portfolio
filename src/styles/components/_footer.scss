@@ -1,4 +1,6 @@
 .footer {
     text-align: center;
-    margin-bottom: retr(50);
+    &__copytext{
+        font-size: retr(14);
+    }
 }
