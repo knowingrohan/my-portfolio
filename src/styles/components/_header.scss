@@ -3,32 +3,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__logo{
-        img{
+    &__logo {
+        img {
             width: retr(60);
             border: 1px solid $yellow;
         }
     }
-    &__contact {
-        cursor: pointer;
-        font-size: retr(22);
-        padding: retr(16);
-        background-image: url("../assets/phone-icon.png");
-        background-size: retr(56);
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: retr(20);
-        &:hover,
-        &:focus {
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a:hover,
+        a:focus {
             border-bottom: none;
         }
+    }
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        margin-left: retr(48);
+        cursor: pointer;
+        @include media-query(mobile){
+            margin-left: retr(24);
+        }
+        img {
+            width: retr(50);
+        }
+
         span {
-            display: inline-block;
-            font-size: retr(16);
+            display: block;
+            font-size: retr(12);
             color: $white;
-            position: relative;
-            bottom:retr(4);
-            left: retr(2);
+            line-height: 2;
+            text-align: center;
         }
     }
 }
