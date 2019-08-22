@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__logo">
-                <img src={Logo} alt="Rohan Mahajan's site logo" />
+                <img src={Logo} alt="Rohan Mahajan's site logo" title="Rohan Mahajan"/>
             </div>
             <div className="header__icons">
                 <a className="header__icon" href="https://speakerdeck.com/knowingrohan/" target="_blank" rel="noopener noreferrer" title="My Tech Presentations">
