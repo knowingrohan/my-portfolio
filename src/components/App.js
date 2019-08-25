@@ -10,7 +10,7 @@ const App = () => {
             <Header />
             <main>
                 <Window>
-                    <TypewriterText value="Hello World. I'm a frontend developer having a keen eye for a minimal UI and an awesome UX. Checkout various links and hotspots on this site to know more about me" />
+                    <TypewriterText value="Hello World. I'm a frontend developer having a strong sense for a minimal UI and an awesome UX design. Explore links and hotspots here to know more about me" />
                 </Window>
             </main>
             

@@ -7,7 +7,7 @@ const TypewriterText = (props) => {
     let txt = props.value;
     let i = 0;
     let string = props.value;
-    let speed = 40;
+    let speed = 50;
     let textRef = React.createRef();
 
 

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
     &__logo {
         img {
             width: retr(60);
@@ -33,7 +34,7 @@
 
         span {
             display: block;
-            font-size: retr(12);
+            font-size: retr(14);
             color: $blue;
             line-height: 2;
             text-align: right;
