@@ -10,12 +10,9 @@ const App = () => {
             <Header />
             <main>
                 <Window>
-                    <TypewriterText value="Hello World. I'm a frontend developer having a strong sense for a minimal UI and an awesome UX design. Explore links and hotspots here to know more about me" />
+                    <TypewriterText value="Hello World. I'm a frontend developer with a strong sense for a minimal UI &amp; an awesome UX design. Explore links &amp; hotspots here to know more about me" />
                 </Window>
             </main>
-            
-            {/* <AnimatedText/> */}
-            
             <Footer />
         </>
     );
