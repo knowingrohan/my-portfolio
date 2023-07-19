@@ -1,4 +1,3 @@
-import styles from "../styles/Home.module.scss";
 import Link from "next/link";
 import Header from "../components/header/header";
 import Head from "next/head";
@@ -6,7 +5,7 @@ import Head from "next/head";
 //TODO add robot google font in next app. this is page.js file
 export default function () {
   return (
-    <div className={`${styles.container}`}>
+    <>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,15 +34,13 @@ export default function () {
           title="Alex Pate"
         />
       </Head>
-
       <Header />
-
-      <main className={`${styles.container} ${styles["home-page"]}`}>
-        <section className={`${styles.section} ${styles["home-hero"]}`}>
-          <div className={styles.orbs}>
-            <div className={styles["orb1"]} />
-            <div className={styles["orb2"]} />
-            <div className={styles["orb3"]} />
+      <main className="container home-page">
+        <section className="section home-hero">
+          <div className="orbs">
+            <div id="orb1" />
+            <div id="orb2" />
+            <div id="orb3" />
           </div>
           <h1>
             A web engineer interested in design systems and closing the gap
@@ -60,7 +57,7 @@ export default function () {
         </section>
         <section className="section">
           <h2>Selected work</h2>
-          <Link className={styles["selected-project"]} href="projects/uiuxops">
+          <Link className="selected-project" href="projects/uiuxops">
             <figure>
               <img
                 src="https://picsum.photos/300/200"
@@ -76,10 +73,7 @@ export default function () {
               </p>
             </div>
           </Link>
-          <Link
-            className={styles["selected-project"]}
-            href="projects/royalerado"
-          >
+          <Link className="selected-project" href="projects/royalerado">
             <figure>
               <img
                 src="https://picsum.photos/300/200"
@@ -100,6 +94,6 @@ export default function () {
           </p>
         </section>
       </main>
-    </div>
+    </>
   );
 }
