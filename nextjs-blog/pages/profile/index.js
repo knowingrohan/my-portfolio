@@ -15,40 +15,47 @@ export default function () {
           <p>Hey there! 👋</p>
 
           <p>
-            I'm Alex, a web engineer and designer. I'm currently based in
-            London, and working with Monzo where I'm helping build the next
-            generation of web banking apps at Monzo.
+            👋 Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker,
+            and a Digital Alchemist all in one, based out of Bangalore, India.
+            I'm currently working at Walmart Global Tech India building the
+            next-generation of web based dashboards for Ad Tech domain.
           </p>
 
           <p>
-            I have a particular passion for design systems and design tooling,
-            having been fortunate enough to work on these problems at my
-            previous three companies.
+            As a seasoned Frontend Magician, I excel at crafting captivating
+            user interfaces and seamless interactions that leave users
+            spellbound. But that's not all - I'm also a Full Stack Troublemaker,
+            fearlessly diving into complex backend challenges and transforming
+            them into opportunities.
           </p>
 
           <p>
-            Every now and then I also write articles, including for Awwwards,
-            Web Designer Magazine and net Magazine.
+            With a touch of alchemy, I can weave together the perfect blend of
+            technology and creativity to produce extraordinary web experiences.
+            So, if you're ready to embark on a journey of digital mayhem, let's
+            collaborate and conjure some magic together!
           </p>
 
           <hr />
 
           <h2>Experience</h2>
           <p>
-            <strong>Monzo</strong> <small>(2019 - current)</small>
+            <strong>Walmart Global Tech india</strong>{" "}
+            <small>(Feb'2023 - current)</small>
           </p>
           <p>
-            As a web engineer at Monzo, I've led engineering on several
-            high-profile projects including Year in Monzo. Likewise, I've helped
-            launch our first public web banking app.
+            As a senior software engineer at Walmart, I collaborate with
+            cross-functional teams to develop and maintain a cutting-edge
+            dashboard utilizing React, Go, PostgreSQL, and BigQuery
+            technologies.
           </p>
           <p>
             <strong>Kalo</strong> <small>(2017 - 2019)</small>
           </p>
           <p>
-            Before Monzo, I spent 2 years at Kalo (now Polywork) building
-            products to help freelancers and businesses work more seamlessly
-            together.
+            Before Walmart, I spent 1.5 years at Nagarro in a complete WFA (Work
+            From Anywhere) seytup building products to help freelancers and
+            businesses work more seamlessly together.
           </p>
           <p>
             <strong>Pusher</strong> <small>(2015 - 2017)</small>

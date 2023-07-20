@@ -73,7 +73,7 @@ export default function () {
             Projects
           </Link>
         </nav>
-        <button onClick={handleThemeToggle} id="theme-toggler">
+        <button onClick={handleThemeToggle} id="theme-toggle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}

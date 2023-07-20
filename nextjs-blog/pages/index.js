@@ -43,13 +43,15 @@ export default function () {
             <div id="orb3" />
           </div>
           <h1>
-            A web engineer interested in design systems and closing the gap
-            between design and development
+            If you're ready to conjure up some digital mayhem and create
+            extraordinary web experiences, let's collaborate and make magic
+            happen.
           </h1>
           <p>
-            👋 Hey I'm Alex, a design-focused engineer based in Milan. I'm
-            currently working at Monzo building the next-generation of web based
-            banking tools.
+            👋 Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker,
+            and a Digital Alchemist all in one, based out of Bangalore, India.
+            I'm currently working at Walmart Global Tech India building the
+            next-generation of web based dashboards for Ad Tech domain.
           </p>
           <p>
             <Link href="profile">View profile →</Link>
@@ -67,8 +69,9 @@ export default function () {
             <div>
               <h3>UIUXOPS</h3>
               <p>
-                A unique experience in to how each customer has spent over the
-                past year <br /> <br />
+                The team at UIUX OPS, craft high-quality mobile and web
+                applications that not only impress but captures your tareget
+                audience <br /> <br />
                 Read more →{" "}
               </p>
             </div>
@@ -83,8 +86,9 @@ export default function () {
             <div>
               <h3>Royal Erado</h3>
               <p>
-                Building a consumer web banking product from scratch <br />{" "}
-                <br />
+                Royal Erado is an Indian company that specialises in the
+                manufacture and sale of Royal Enfield and other motorcycle
+                accessories and parts. <br /> <br />
                 Read more →
               </p>
             </div>
