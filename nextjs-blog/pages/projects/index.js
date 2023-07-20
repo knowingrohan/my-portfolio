@@ -3,6 +3,8 @@ import styles from "./projects.module.scss";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
+import { workCopy } from "./workCopy";
+import Image from "next/image";
 
 export default function () {
   return (
@@ -10,38 +12,35 @@ export default function () {
       <Header />
       <main className={`${styles.container} ${styles["home-page"]}`}>
         <section className="section">
-          <h1>Work</h1>
-          <p>A selection of recent and past projects</p>
+          <h1>{workCopy.title}</h1>
+          <p>{workCopy.para1}</p>
         </section>
 
         <section className="section">
-          <Link href="projects/uiuxops">
-            <figure>
-              <img src="img/featured-images/year-in-monzo-2020.png" />
-            </figure>
-            <div>
-              <h3>UIUX OPS</h3>
-              <p>
-                A unique experience in to how each customer has spent over the
-                past year <br /> <br />
-                Read more →{" "}
-              </p>
-            </div>
-          </Link>
-
-          <Link href="projects/royalerado">
-            <figure>
-              <img src="img/featured-images/year-in-monzo-2020.png" />
-            </figure>
-            <div>
-              <h3>Royal Erado</h3>
-              <p>
-                A unique experience in to how each customer has spent over the
-                past year <br /> <br />
-                Read more →{" "}
-              </p>
-            </div>
-          </Link>
+          {workCopy.projects.map((project, index) => (
+            <Link
+              href="projects/uiuxops"
+              key={index}
+              className="selected-project"
+            >
+              <figure>
+                <Image
+                  src={project.imgSrc}
+                  width={330}
+                  height={160}
+                  style={{ objectFit: "cover" }}
+                  alt="uiuxops landing page"
+                />
+              </figure>
+              <div>
+                <h3>{project.title}</h3>
+                <p>
+                  {project.desc} <br /> <br />
+                  Read more →
+                </p>
+              </div>
+            </Link>
+          ))}
         </section>
       </main>
     </div>

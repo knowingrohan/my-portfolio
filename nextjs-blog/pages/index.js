@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Header from "../components/header/header";
 import Head from "next/head";
+import { workCopy } from "./projects/workCopy";
+import Image from "next/image";
 
 //TODO add robot google font in next app. this is page.js file
 export default function () {
@@ -59,40 +61,26 @@ export default function () {
         </section>
         <section className="section">
           <h2>Selected work</h2>
-          <Link className="selected-project" href="projects/uiuxops">
-            <figure>
-              <img
-                src="https://picsum.photos/300/200"
-                alt="Year in Monzo 2020"
-              />
-            </figure>
-            <div>
-              <h3>UIUXOPS</h3>
-              <p>
-                The team at UIUX OPS, craft high-quality mobile and web
-                applications that not only impress but captures your tareget
-                audience <br /> <br />
-                Read more →{" "}
-              </p>
-            </div>
-          </Link>
-          <Link className="selected-project" href="projects/royalerado">
-            <figure>
-              <img
-                src="https://picsum.photos/300/200"
-                alt="Monzo Web Banking"
-              />
-            </figure>
-            <div>
-              <h3>Royal Erado</h3>
-              <p>
-                Royal Erado is an Indian company that specialises in the
-                manufacture and sale of Royal Enfield and other motorcycle
-                accessories and parts. <br /> <br />
-                Read more →
-              </p>
-            </div>
-          </Link>
+          {workCopy.projects.map((project, index) => (
+            <Link href={project.link} key={index} className="selected-project">
+              <figure>
+                <Image
+                  src={project.imgSrc}
+                  width={330}
+                  height={160}
+                  style={{ objectFit: "cover" }}
+                  alt="uiuxops landing page"
+                />
+              </figure>
+              <div>
+                <h3>{project.title}</h3>
+                <p>
+                  {project.desc} <br /> <br />
+                  Read more →
+                </p>
+              </div>
+            </Link>
+          ))}
           <p>
             <Link href="/projects">View all work →</Link>
           </p>
