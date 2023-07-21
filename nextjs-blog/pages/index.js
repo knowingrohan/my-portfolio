@@ -56,7 +56,9 @@ export default function () {
             next-generation of web based dashboards for Ad Tech domain.
           </p>
           <p>
-            <Link href="profile">View profile →</Link>
+            <Link href="profile" className="underline">
+              View profile →
+            </Link>
           </p>
         </section>
         <section className="section">
@@ -82,7 +84,9 @@ export default function () {
             </Link>
           ))}
           <p>
-            <Link href="/projects">View all work →</Link>
+            <Link href="/projects" className="underline">
+              View all work →
+            </Link>
           </p>
         </section>
       </main>

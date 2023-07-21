@@ -1,5 +1,5 @@
 export const workCopy = {
-  title: "My Projects",
+  title: "Projects",
   para1: "A selection of recent and past projects.",
   projects: [
     {

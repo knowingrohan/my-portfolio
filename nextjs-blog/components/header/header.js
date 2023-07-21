@@ -63,7 +63,6 @@ export default function () {
         </Link>
         <nav>
           <Link href="/profile" className={styles.navlink}>
-            {" "}
             Profile
           </Link>
           <Link href="/blogs" className={styles.navlink}>
