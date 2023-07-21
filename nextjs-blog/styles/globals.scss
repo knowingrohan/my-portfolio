@@ -102,9 +102,12 @@ a[href^="https://github.com"]
 {
   color: #aaa;
 }
-a[href^="https://dribbble.com"]
+a[href^="https://linkedin.com"]
 {
-  color: #ea4c89;
+  color: #0a66c2;
+}
+a[href*="gmail.com"] {
+  color: #d93025;
 }
 .header {
   width: 100%;

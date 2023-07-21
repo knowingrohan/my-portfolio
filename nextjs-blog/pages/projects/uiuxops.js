@@ -3,6 +3,7 @@ import styles from "./projects.module.scss";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
+import Image from "next/image";
 
 export default function () {
   return (
@@ -10,81 +11,56 @@ export default function () {
       <Header />
       <main className={styles.container}>
         <>
-          <img
-            src="../../img/featured-images/design-kit.png"
-            className="project-featured-image"
+          <Image
+            src="/images/uiuxops.png"
+            alt="uiuxops wesbite image"
+            width={600}
+            height={300}
           />
-          <h1 className="title">UIUX OPS</h1>
+          <h1 className="title">
+            <Link href={"https://uiuxops.com"} target="_blank">
+              UIUX OPS
+            </Link>
+          </h1>
           <p className="meta">
-            <strong>Role:</strong>Fullstack Web Consultant <br />{" "}
+            <strong>Role:</strong> Fullstack Web Consultant
+            <br />
             <strong>Year:</strong> June'23
           </p>
           <p>
-            Design Kit is a custom Sketch plugin built to aid our designers in
-            navigating our design system. Through it, they can search design
-            system documentation, access our style guide, as well as
-            drag-and-drop components directly in to their designs.
+            UIUX OPS is a leading company in web and mobile application
+            development. Our team of experienced professionals is dedicated to
+            delivering high-quality products and exceptional customer service.
           </p>
           <p>
-            <img src="../../img/design-kit/preview.png" alt="Design Kit" />
+            Working with UIUX OPS offers numerous benefits, including our
+            expertise in web and mobile application development, our commitment
+            to delivering exceptional results, and our collaborative approach.
           </p>
-          <h2>Meeting designers where they work</h2>
+          <h2 style={{ fontWeight: "bold" }}>Why Work with Us</h2>
           <p>
-            Before Design Kit, our design documentation was scattered across
-            various Google Docs, Notion pages, and in peoples heads. Rather than
-            simply consolidating this in to a single place (such as a website),
-            we wanted to find a way to bring the docs directly in to the
-            workflow of designers.
-          </p>
-          <p>
-            Building the documentation right in to Sketch removes the friction
-            of having to switch context, open the browser, type in the URL.
-            Instead, docs are a single click away from within Sketch.
-          </p>
-          <h2>Always up to date docs</h2>
-          <p>
-            As our design documentation is managed by designers, it was
-            important that they had an easy way to create and update the docs.
-            To support this, we host all of our documentation on Contentful. In
-            order to keep the initial opening speed of Design Kit low, a copy of
-            the documentation is cached the first time it's opened, which is
-            then periodically refreshed every few days.
-          </p>
-          <h2>Drag and drop design system components</h2>
-          <p>
-            One of our core principles when building Design Kit was that using
-            it should always add to the experience of design. In the initial
-            versions of Design Kit there was a clear disconnect between
-            documentation and process. Designers would read a components
-            documentation in one window, and then switch back to Sketch . Or in
-            some cases, just not read documentation at all.
+            At UIUX Ops, we craft high-quality mobile and web applications that
+            not only impress but also captivate your target audience. Our team
+            of experts combines cutting-edge design with seamless functionality
+            to elevate your brand and deliver exceptional user experiences.
           </p>
           <p>
-            Building drag and drop in to the tool, provided a very clear path
-            for designers to follow. Open Design Kit, find your component, and
-            build your UI. We also explored the idea of being able to select and
-            drop multiple components in to a design at once.
+            With our meticulous attention to detail and commitment to pushing
+            boundaries, we shape the future of user-centric design. Partner with
+            us and embark on a transformative journey that will redefine the way
+            you connect with your audience.
           </p>
-          <video controls="" autoPlay="" loop="" muted="">
-            <source
-              src="../../img/design-kit/dragging-symbols-prototype.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <h2>Technical details</h2>
+          <h2 style={{ fontWeight: "bold" }}>Technical details</h2>
           <ul>
-            <li>Built in vanilla HTML, CSS, JavaScript</li>
-            <li>
-              Also used Cocoascript to access MacOS and Sketch ObjectiveC APIs
-              (such as dragging and dropping a Sketch component)
-            </li>
+            <li>Built with Next.js v13 (app directory)</li>
+            <li>Tailwind CSS</li>
+            <li>React</li>
+            <li>Deployed on GCP</li>
           </ul>
           <hr />
-          <ul>
-            <li>
-              Next: <Link href="/projects/royalerado">Royal Erado</Link>
-            </li>
-          </ul>
+          <p>
+            Next: <Link href="/projects/royalerado">Royal Erado</Link>
+          </p>
         </>
       </main>
     </div>

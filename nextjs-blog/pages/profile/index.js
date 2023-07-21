@@ -36,10 +36,11 @@ export default function () {
           <h2>Get in touch</h2>
           <p>
             You can find me at various places around the web, including{" "}
-            <a href="https://twitter.com/alexjpate">Twitter</a>,{" "}
-            <a href="https://github.com/alexpate">GitHub</a>, and{" "}
-            <a href="https://dribbble.com/alexpate">Dribbble</a>. Or send me an
-            email on hey@alexjpate.com
+            <a href="https://twitter.com/knowingrohan">Twitter</a>,{" "}
+            <a href="https://github.com/knowingrohan">GitHub</a>, and{" "}
+            <a href="https://linkedin.com/in/knowingrohan/">LinkedIn</a>. Or
+            send me an email on{" "}
+            <a href="mailto:rohanm789@gmail.com">rohanm789@gmail.com</a>
           </p>
         </section>
       </main>
