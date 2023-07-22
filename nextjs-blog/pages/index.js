@@ -8,21 +8,43 @@ import Image from "next/image";
 export default function () {
   return (
     <>
+      {/* TODO - add appropriate meta tags to do a goo seo of this next app  */}
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rohan Mahajan - Coder | Traveller | Foodie</title>
         <meta
           name="description"
-          content="Rohan Mahajan is a frontend magician, a full-stack troublemaker and a digital alchemist!"
+          content="Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker, and a Digital Alchemist all in one, based out of Bangalore, India"
+        />
+        <meta name="author" content="Rohan Mahajan" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="Rohan Mahajan, frontend developer, coder, personal blog, blog, portfolio wesbsite, rohanmahajan.in"
         />
         {/* Twitter Cards */}
-        <meta name="author" content="Alex Pate" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@alexjpate" />
-        <meta name="twitter:creator" content="@alexjpate" />
+
+        {/* <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@knowingrohan" />
+        <meta name="twitter:creator" content="@knowingrohan" />
         <meta name="twitter:image" content="static/twitter-card.png" />
-        <meta name="twitter:title" content="Alex Pate - Engineer & Designer" />
+        <meta
+          name="twitter:title"
+          content="Rohan Mahajan - Coder, Traveller & Foodie"
+        /> */}
+        {/* Open Graph (OG) meta tags */}
+        <meta
+          property="og:title"
+          content="Rohan Mahajan - Coder | Traveller | Foodie"
+        />
+        <meta
+          property="og:description"
+          content="Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker, and a Digital Alchemist all in one, based out of Bangalore, India."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://rohanmahajan.in" />
+        <meta property="og:image" content="/images/index-meta.jpg" />
         <link
           rel="alternate"
           href="404.html"
@@ -35,6 +57,7 @@ export default function () {
           type="application/json"
           title="Alex Pate"
         />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <main className="container home-page">

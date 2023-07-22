@@ -12,7 +12,7 @@ export default function () {
       <main className={styles.container}>
         <>
           <Image
-            src="/images/royal.png"
+            src="/images/royal.jpg"
             alt="uiuxops wesbite image"
             width={600}
             height={300}
