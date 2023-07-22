@@ -1,54 +1,17 @@
 {
-  "name": "rohanmahajan.in",
-  "version": "1.0.0",
-  "description": "My portfolio site",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "lint": "next lint"
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/knowingrohan/my-portfolio"
-  },
-  "keywords": [
-    "portfolio"
-  ],
-  "author": "rohan mahajan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/knowingrohan/my-portfolio/issues"
-  },
-  "homepage": "https://rohanmahajan.in/",
   "dependencies": {
-    "next": "^13.4.9",
+    "google-fonts": "^1.0.0",
+    "next": "latest",
     "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.63.6"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "stylelint-config-standard": "^18.3.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.6",
+    "webfontloader": "^1.6.28"
   }
 }
