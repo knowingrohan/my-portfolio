@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Header from "../components/header/header";
 import Head from "next/head";
-import { workCopy } from "./projects/workCopy";
+import { workCopy } from "../copytext/workCopy";
 import Image from "next/image";
 
 //TODO add robot google font in next app. this is page.js file

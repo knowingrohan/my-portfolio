@@ -3,7 +3,7 @@ import styles from "./blog.module.scss";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
-import { blogCopy } from "./blogCopy";
+import { blogCopy } from "../../copytext/blogCopy";
 
 export default function () {
   return (
@@ -26,7 +26,7 @@ export default function () {
                 </Link>
               </h2>
 
-              <time className="postlist-date" datetime="2021-08-24">
+              <time className="postlist-date" dateTime="2021-08-24">
                 {blog.date}
               </time>
             </div>
