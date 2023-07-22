@@ -1,0 +1,17 @@
+.typewriter-text {
+    color: #32cd32;
+    span {
+        animation: blink 1s infinite;
+    }
+    br{
+        display: block;
+        content: '';
+        margin: retr(12) 0;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}

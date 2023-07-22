@@ -1,0 +1,48 @@
+.window {
+    margin: retr(32) 0;
+    &__titlebar {
+        background: $grey;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+        .titlebar-icons{
+            position: absolute;
+            top: retr(10);
+        }
+        p{
+            text-align: center;
+            display: block;
+            color: $light-black;
+            padding: retr(5);
+            margin-bottom: 0;
+        }
+        span{
+            display: inline-block;
+            margin: 0 retr(10);
+            height: retr(15);
+            width: retr(15);
+            border-radius: 50%;  
+            @include media-query(mobile){
+                margin: 0 retr(8);
+                height: retr(10);
+                width: retr(10);
+            }
+            &.red{
+                background-color: $red;
+            }
+            &.yellow{
+                background-color: $yellow;
+            }
+            &.green{
+                background-color: $green;
+            }
+        }
+    }
+    &__container {
+        background: $black;
+        padding: retr(10); 
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        min-height: retr(250);
+    }
+}

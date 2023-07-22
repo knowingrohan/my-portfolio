@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    &__copytext{
+        font-size: retr(14);
+        color: $blue;
+    }
+    a{
+        padding: retr(5);
+    }
+}
