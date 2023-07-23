@@ -24,7 +24,6 @@ export default function () {
           content="Rohan Mahajan, frontend developer, coder, personal blog, blog, portfolio wesbsite, rohanmahajan.in"
         />
         {/* Twitter Cards */}
-
         {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@knowingrohan" />
         <meta name="twitter:creator" content="@knowingrohan" />
@@ -48,18 +47,7 @@ export default function () {
           property="og:image"
           content="https://rohanmahajan.in/images/index-meta.jpg"
         />
-        <link
-          rel="alternate"
-          href="404.html"
-          type="application/atom+xml"
-          title="Alex Pate"
-        />
-        <link
-          rel="alternate"
-          href="404.html"
-          type="application/json"
-          title="Alex Pate"
-        />
+        <meta property="og:updated_time" content="1690098919" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
