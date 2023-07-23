@@ -44,7 +44,10 @@ export default function () {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://rohanmahajan.in" />
-        <meta property="og:image" content="/images/index-meta.jpg" />
+        <meta
+          property="og:image"
+          content="https://rohanmahajan.in/images/index-meta.jpg"
+        />
         <link
           rel="alternate"
           href="404.html"
