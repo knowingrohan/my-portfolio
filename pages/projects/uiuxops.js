@@ -18,7 +18,11 @@ export default function () {
             height={300}
           />
           <h1 className="title">
-            <Link href={"https://uiuxops.com"} target="_blank">
+            <Link
+              href={"https://uiuxops.com"}
+              target="_blank"
+              className="underline"
+            >
               UIUX OPS
             </Link>
           </h1>

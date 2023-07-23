@@ -18,11 +18,7 @@ export default function () {
 
         <section className="section">
           {workCopy.projects.map((project, index) => (
-            <Link
-              href="projects/uiuxops"
-              key={index}
-              className="selected-project"
-            >
+            <Link href={project.link} key={index} className="selected-project">
               <figure>
                 <Image
                   src={project.imgSrc}

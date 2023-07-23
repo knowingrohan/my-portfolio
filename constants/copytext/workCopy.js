@@ -14,5 +14,11 @@ export const workCopy = {
       imgSrc: "/images/royal.jpg",
       link: "projects/royalerado",
     },
+    {
+      title: "rohanmahajan.in",
+      desc: "This project was representaion of my dev portfolio, built with create-react-app and hosted on github pages",
+      imgSrc: "/images/portfolio.png",
+      link: "projects/rohanmahajan",
+    },
   ],
 };

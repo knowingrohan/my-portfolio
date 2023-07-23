@@ -18,7 +18,11 @@ export default function () {
             height={300}
           />
           <h1 className="title">
-            <Link href="https://royalerado.in" target="_blank">
+            <Link
+              href="https://royalerado.in"
+              target="_blank"
+              className="underline"
+            >
               Royal Erado
             </Link>
           </h1>
@@ -54,8 +58,13 @@ export default function () {
             <li>Deployed on GCP</li>
           </ul>
           <hr />
-          <p>
-            Previous:<Link href="/projects/uiuxops">UIUX OPS</Link>
+          <p style={{ display: "flex", justifyContent: "space-between" }}>
+            <span>
+              Previous: <Link href="/projects/uiuxops">UIUX OPS</Link>
+            </span>
+            <span>
+              Next: <Link href="/projects/rohanmahajan">rohanmahajan.in</Link>
+            </span>
           </p>
         </>
       </main>
