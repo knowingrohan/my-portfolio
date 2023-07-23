@@ -13,10 +13,6 @@ export default function () {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rohan Mahajan - Coder | Traveller | Foodie</title>
-        <meta
-          name="description"
-          content="Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker, and a Digital Alchemist all in one, based out of Bangalore, India"
-        />
         <meta name="author" content="Rohan Mahajan" />
         <meta name="robots" content="index, follow" />
         <meta
@@ -34,20 +30,27 @@ export default function () {
         /> */}
         {/* Open Graph (OG) meta tags */}
         <meta
+          name="title"
           property="og:title"
           content="Rohan Mahajan - Coder | Traveller | Foodie"
         />
         <meta
+          name="description"
           property="og:description"
           content="Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker, and a Digital Alchemist all in one, based out of Bangalore, India."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rohanmahajan.in" />
+        <meta name="type" property="og:type" content="website" />
+        <meta name="url" property="og:url" content="https://rohanmahajan.in" />
         <meta
+          name="image"
           property="og:image"
           content="https://rohanmahajan.in/images/index-meta.jpg"
         />
-        <meta property="og:updated_time" content="1690098919" />
+        <meta
+          name="updated_time"
+          property="og:updated_time"
+          content="1690098919"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
