@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import Header from "../../../components/header/header";
-import { blogCopy } from "../../../copytext/blogCopy";
+import { blogCopy } from "../../../constants/copytext/blogCopy";
 
 export default function () {
   return (

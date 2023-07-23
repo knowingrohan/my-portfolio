@@ -3,7 +3,7 @@ import styles from "./blog.module.scss";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
-import { blogCopy } from "../../copytext/blogCopy";
+import { blogCopy } from "../../constants/copytext/blogCopy";
 
 export default function () {
   return (
