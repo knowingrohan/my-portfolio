@@ -5,10 +5,17 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../../components/header/header";
 import { workCopy } from "../../constants/copytext/workCopy";
+import SEO from "../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title={"Rohan Mahajan - Design & Developed By Rohan Mahajan"}
+        description="This project was representaion of my dev portfolio, built with create-react-app and hosted on github pages"
+        image={"https://rohanmahajan.in/images/index-meta.jpg"}
+        keywords="Rohan Mahajan, Frontend Developer, Coder, Personal Blog, Portfolio Wesbsite, rohanmahajan.in, Dev Portfolio"
+      />
       <Header />
       <main className={styles.container}>
         <>

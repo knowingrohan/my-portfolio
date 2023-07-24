@@ -4,10 +4,21 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
 import Image from "next/image";
+import SEO from "../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title={"UIUX OPS - Developed By Rohan Mahajan"}
+        description={
+          " UIUX OPS is a leading company in web and mobile application development"
+        }
+        image={"https://rohanmahajan.in/images/index-meta.jpg"}
+        keywords={
+          "UIUX OPS, uiuxops.com, consultancy, digital agency, agency, consultant project, next.js, tailwind.css"
+        }
+      />
       <Header />
       <main className={styles.container}>
         <>

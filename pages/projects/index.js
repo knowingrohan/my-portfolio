@@ -5,10 +5,17 @@ import Link from "next/link";
 import Header from "../../components/header/header";
 import { workCopy } from "../../constants/copytext/workCopy";
 import Image from "next/image";
+import SEO from "../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title={"Projects Developed By Rohan Mahajan"}
+        description={workCopy.para1}
+        image={"https://rohanmahajan.in/images/index-meta.jpg"}
+        keywords={workCopy.keywords}
+      />
       <Header />
       <main className={`${styles.container} ${styles["home-page"]}`}>
         <section className="section">

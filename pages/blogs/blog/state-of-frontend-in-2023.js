@@ -5,10 +5,17 @@ import React from "react";
 import Image from "next/image";
 import Header from "../../../components/header/header";
 import { blogCopy } from "../../../constants/copytext/blogCopy";
+import SEO from "../../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title="State Of Frontend In 2023"
+        description={blogCopy.desc}
+        image={"https://rohanmahajan.in/images/blog1-meta.jpg"}
+        keywords="State Of Frontend In 2023, Blog, frontend development, WASM, AI, AR, Generative AI, Web assembly, chatgpt, rohan mahajan, author, Wesbsite, rohanmahajan.in"
+      />
       <Header />
       <main className="container post">
         {blogCopy.blogs.map((blog, index) => (

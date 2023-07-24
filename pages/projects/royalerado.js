@@ -4,10 +4,21 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../../components/header/header";
+import SEO from "../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title={"Royal Erado - Developed By Rohan Mahajan"}
+        description=" Royal Erado is an Indian company that specialises in the manufacture
+        and sale of Royal Enfield and other motorcycle accessories and
+        parts."
+        image={"https://rohanmahajan.in/images/index-meta.jpg"}
+        keywords={
+          "Royal Erado, royalerado.com, bike parts, alloys, alloy wheels,motorbike, royal enfield, interceptor, next.js, mongoDb"
+        }
+      />
       <Header />
       <main className={styles.container}>
         <>

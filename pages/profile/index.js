@@ -5,22 +5,28 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header/header";
 import { profileCopy } from "../../constants/copytext/profileCopy";
+import SEO from "../../components/seo";
 
 export default function () {
   return (
     <div>
+      <SEO
+        title={"Profile - Rohan Mahajan"}
+        description={`Hey I'm Rohan, a Frontend Magician, a Full Stack Troublemaker, and a Digital Alchemist all in one, based out of Bangalore, India.`}
+        image={"https://rohanmahajan.in/images/index-meta.jpg"}
+        keywords={
+          "Rohan Mahajan, Frontend Developer, Coder, Personal Blog, Portfolio Wesbsite, rohanmahajan.in, Dev Portfolio"
+        }
+      />
       <Header />
       <main className={`${styles["container"]} ${styles["home-page"]}`}>
         <section className="section">
           <h1>{profileCopy.title}</h1>
-
-          <p>{profileCopy.para1}</p>
+          {/* <p>{profileCopy.para1}</p> */}
           <p>{profileCopy.para2}</p>
           <p>{profileCopy.para3}</p>
           <p>{profileCopy.para4}</p>
-
           <hr />
-
           <h2>Experience</h2>
           {profileCopy.jobs.map((job, index) => (
             <React.Fragment key={index}>

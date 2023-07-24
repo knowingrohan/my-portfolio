@@ -1,6 +1,7 @@
 export const workCopy = {
   title: "Projects",
   para1: "A selection of recent and past projects.",
+  keywords: "royalerado.com, rohanmahajan.in, uiuxops.com, websites",
   projects: [
     {
       title: "UIUX OPS",

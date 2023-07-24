@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "./header.module.scss";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+import Script from "next/script";
+import SEO from "../seo";
+const GA_MEASUREMENT_ID = "G-XRJ7KR93S3";
 
 export default function () {
   const theme = useTheme();
@@ -16,47 +19,18 @@ export default function () {
 
   return (
     <>
-      <Head>
-        <>
-          <meta charSet="utf-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <title>
-            Rohan Mahajan - Frontend Magician | Full Stack Troublemaker |
-            Digital Alchemist
-          </title>
-          <meta
-            name="description"
-            content="Rohan Mahajan is a web developer and a frontend advocate based in Bangalore building things at Walmart. Let's create some digital mayhem together !"
-          />
-
-          {/* Twitter Cards */}
-          <meta name="author" content="Rohan Mahajan" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@knowinnrohan" />
-          <meta name="twitter:creator" content="@knowinnrohan" />
-          <meta name="twitter:image" content="static/twitter-card.png" />
-          <meta
-            name="twitter:title"
-            content="Rohan Mahajan  - Engineer & Web Developer"
-          />
-          <link
-            rel="alternate"
-            href="404.html"
-            type="application/atom+xml"
-            title="Rohan Mahajan "
-          />
-          <link
-            rel="alternate"
-            href="404.html"
-            type="application/json"
-            title="Rohan Mahajan "
-          />
-          <link rel="icon" type="image/png" href="static/favicon.png" />
-        </>
-      </Head>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_MEASUREMENT_ID}');
+        `}
+      </Script>
       <header className={`${styles.header} header`}>
         <Link href="/" className={styles.logo + " " + styles.navlink}>
           Rohan Mahajan
