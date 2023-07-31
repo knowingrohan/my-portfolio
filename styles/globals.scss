@@ -569,3 +569,10 @@ body {
   min-height: 100vh;
   font-family: "Neue Haas Unica", sans-serif;
 }
+
+img {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+  object-fit: contain !important;
+}
