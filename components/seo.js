@@ -5,7 +5,7 @@ const SEO = ({ title, description, image, keywords }) => {
     <Head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/png" href="favicon.ico" />
+      <link rel="icon" href="/favicon.ico" />
       <title>{title}</title>
       <meta name="author" content="Rohan Mahajan" />
       <meta name="robots" content="index, follow" />

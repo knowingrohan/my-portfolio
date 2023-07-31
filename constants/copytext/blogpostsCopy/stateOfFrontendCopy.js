@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,6 +6,12 @@ export default function () {
   return (
     <div>
       <h2>Introduction</h2>
+      <Image
+        src={"/images/frontend-state.jpg"}
+        alt="state of frontend development in 2023-infographic"
+        width={600}
+        height={300}
+      />
       <p>
         Welcome to the world of frontend web development in 2023, where
         innovation and creativity intersect to create cutting-edge user
@@ -33,6 +40,7 @@ export default function () {
               href="https://webassembly.org/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Official WebAssembly website:
             </Link>
@@ -42,6 +50,7 @@ export default function () {
               href="https://developer.mozilla.org/en-US/docs/WebAssembly"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Mozilla Developer Network (MDN) WebAssembly guide:
             </Link>
@@ -67,6 +76,7 @@ export default function () {
               href="https://developers.google.com/web/progressive-web-apps/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Google Developers - Progressive Web Apps
             </Link>
@@ -76,6 +86,7 @@ export default function () {
               href="https://web.dev/progressive-web-apps/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Web.dev - Introduction to Progressive Web Apps:
             </Link>
@@ -110,6 +121,7 @@ export default function () {
               href="https://developers.google.com/ar"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Google AR & VR
             </Link>
@@ -119,6 +131,7 @@ export default function () {
               href="https://immersive-web.github.io/webxr/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               WebXR - Immersive Web Community Group
             </Link>
@@ -143,6 +156,7 @@ export default function () {
               href="https://alistapart.com/article/the-role-of-ai-in-web-development/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               A List Apart - The Role of AI in Web Development
             </Link>
@@ -167,6 +181,7 @@ export default function () {
               href="https://jamstack.org/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Jamstack Website
             </Link>
@@ -176,6 +191,7 @@ export default function () {
               href="https://www.netlify.com/jamstack/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               Netlify - What is the Jamstack
             </Link>
@@ -200,6 +216,7 @@ export default function () {
               href="https://www.w3.org/WAI/"
               target="_blank"
               className="underline"
+              rel="help"
             >
               W3C Web Accessibility Initiative (WAI)
             </Link>
@@ -216,7 +233,10 @@ export default function () {
         to push the boundaries of technology, the future of frontend development
         promises even more exciting advancements and possibilities. Embrace
         these trends, stay curious, and keep honing your skills to shape the web
-        experiences of tomorrow. Happy coding!
+        experiences of tomorrow.
+        <br />
+        <br />
+        Happy Coding !
       </p>
     </div>
   );
