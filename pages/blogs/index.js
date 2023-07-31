@@ -14,6 +14,7 @@ export default function () {
         description={blogCopy.para1}
         image={"https://rohanmahajan.in/images/index-meta.jpg"}
         keywords="Rohan Mahajan's Blogs, blogs, dev blog, Personal Blog, Portfolio Wesbsite, rohanmahajan.in, Dev Portfolio"
+        link={"/blogs"}
       />
       <Header />
       <main className={`${styles.container} ${styles["home-page"]}`}>
@@ -33,9 +34,7 @@ export default function () {
                 </Link>
               </h2>
 
-              <time className="postlist-date" dateTime="2021-08-24">
-                {blog.date}
-              </time>
+              <time className="postlist-date">{blog.date}</time>
             </div>
           ))}
         </section>

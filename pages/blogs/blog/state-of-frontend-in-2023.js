@@ -19,6 +19,7 @@ export default function () {
         description={frontendBlog.desc}
         image={"https://rohanmahajan.in/images/blog1-meta.jpg"}
         keywords="State Of Frontend In 2023, Blog, frontend development, WASM, AI, AR, Generative AI, Web assembly, chatgpt, rohan mahajan, author, Wesbsite, rohanmahajan.in"
+        link={frontendBlog.link}
       />
       <Header />
       <main className="container post">

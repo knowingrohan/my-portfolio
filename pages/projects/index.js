@@ -15,6 +15,7 @@ export default function () {
         description={workCopy.para1}
         image={"https://rohanmahajan.in/images/index-meta.jpg"}
         keywords={workCopy.keywords}
+        link={"/projects"}
       />
       <Header />
       <main className={`${styles.container} ${styles["home-page"]}`}>

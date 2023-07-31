@@ -15,6 +15,7 @@ export default function () {
         description="This project was representaion of my dev portfolio, built with create-react-app and hosted on github pages"
         image={"https://rohanmahajan.in/images/index-meta.jpg"}
         keywords="Rohan Mahajan, Frontend Developer, Coder, Personal Blog, Portfolio Wesbsite, rohanmahajan.in, Dev Portfolio"
+        link={"/projects/rohanmahajan"}
       />
       <Header />
       <main className={styles.container}>

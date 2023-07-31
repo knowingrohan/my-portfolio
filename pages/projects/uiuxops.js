@@ -18,6 +18,7 @@ export default function () {
         keywords={
           "UIUX OPS, uiuxops.com, consultancy, digital agency, agency, consultant project, next.js, tailwind.css"
         }
+        link={"/projects/uiuxops"}
       />
       <Header />
       <main className={styles.container}>

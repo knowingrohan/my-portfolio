@@ -19,6 +19,7 @@ export default function () {
         description={backendBlog.desc}
         image={"https://rohanmahajan.in/images/backend-state.jpg"}
         keywords="State Of Backend Web Development In 2023, Blog, Backend development, node.js, microservices, security, graphQL, orchestration, rohan mahajan, author, Website, rohanmahajan.in"
+        link={backendBlog.link}
       />
       <Header />
       <main className="container post">

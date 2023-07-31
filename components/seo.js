@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const SEO = ({ title, description, image, keywords }) => {
+const SEO = ({ title, description, image, keywords, link }) => {
   return (
     <Head>
       <meta charSet="utf-8" />
@@ -18,7 +18,11 @@ const SEO = ({ title, description, image, keywords }) => {
         content={description}
       />
       <meta name="type" property="og:type" content="website" />
-      <meta name="url" property="og:url" content="https://rohanmahajan.in" />
+      <meta
+        name="url"
+        property="og:url"
+        content={`https://rohanmahajan.in${link}`}
+      />
       <meta name="image" property="og:image" content={image} />
     </Head>
   );

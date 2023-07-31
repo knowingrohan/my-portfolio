@@ -16,6 +16,7 @@ export default function () {
         keywords={
           "Rohan Mahajan, Frontend Developer, Coder, Personal Blog, Portfolio Wesbsite, rohanmahajan.in, Dev Portfolio"
         }
+        link="/"
       />
       <Header />
       <main className="container home-page">

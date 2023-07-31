@@ -1,9 +1,7 @@
-import Head from "next/head";
 import styles from "./header.module.scss";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import Script from "next/script";
-import SEO from "../seo";
 const GA_MEASUREMENT_ID = "G-XRJ7KR93S3";
 
 export default function () {

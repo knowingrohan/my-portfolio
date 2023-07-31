@@ -18,6 +18,7 @@ export default function () {
         keywords={
           "Royal Erado, royalerado.com, bike parts, alloys, alloy wheels,motorbike, royal enfield, interceptor, next.js, mongoDb"
         }
+        link={"/projects/royalerado"}
       />
       <Header />
       <main className={styles.container}>
